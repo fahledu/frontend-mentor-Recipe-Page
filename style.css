@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Outfit";
+}
+
+body {
+    background-color: #f3e5d8;
+    height: 100%;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 375px;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+header .img-banner {
+    height: 200px;
+    background-image: url(assets/images/image-omelette.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.section-1 {
+    width: 100%;
+    margin: 40px 20px;
+}
+
+.section-1 h1 {
+    font-family: "Young Serif";
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    text-align: left;
+}
+
+.section-1 p {
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #5a5957;
+}
+
+.section-2 {
+    background-color: #fff7fc;
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.section-2 h2 {
+    color: #743551;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: "Young Serif";
+    margin-bottom: 20px;
+}
+
+.section-2 ul {
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+.section-2 ul span {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.section-3 {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.section-3 h2 {
+    color: #743551;
+    font-size: 1.5em;
+    font-family: "Young Serif";
+    margin-bottom: 20px;
+}
+
+.section-3 ul {
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+.section-4 {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.section-4 h2 {
+    color: #743551;
+    font-size: 1.5em;
+    font-family: "Young Serif";
+    margin-bottom: 20px;
+}
+
+.section-4 ol {
+    margin-left: 20px;
+    line-height: 30px;
+    color: #743551;
+    font-weight: bold;
+}
+
+.section-4 ol div{
+    margin-left: 20px;
+}
+
+.section-4 ol span.xpto{
+    color: black;
+}
+
+.section-4 ol .text {
+    color: initial;
+    font-weight: initial;
+    text-align: center;
+}
+
+.section-5 {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.section-5 h2 {
+    color: #743551;
+    font-size: 1.5em;
+    font-family: "Young Serif";
+    margin-bottom: 20px;
+}
+
+.section-5 .nutrittional-table div:not(:last-of-type) {
+    border-bottom: solid 1px #e3e3e3;
+}
+
+.section-5 .nutrittional-table div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-5 .nutrittional-table div {
+    padding: 20px;
+}
+
+.section-5 .nutrittional-table div .text-effect {
+    color: #743551;
+    font-weight: bold;
+}
+
+@media (width > 768px){
+    .container{
+        max-width: 768px;
+        margin: 40px auto;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+
+    header .img-banner{
+        border-radius: 20px;
+        height: 400px;
+    }
+
+}
