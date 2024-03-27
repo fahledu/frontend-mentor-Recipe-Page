@@ -11,6 +11,6 @@ Thanks for checking out this front-end coding challenge.
 ## Deploying project
 
 
-- [GitHub Pages](https://pages.github.com/)
+- [GitHub Pages](https://fahledu.github.io/frontend-mentor-Recipe-Page/)
 
 **Have fun building!** 🚀
