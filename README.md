@@ -8,9 +8,8 @@ Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-## Deploying your project
+## Deploying project
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
 
 - [GitHub Pages](https://pages.github.com/)
 
